@@ -12,3 +12,4 @@ mlflow.db
 
 # Secrets: never upload credentials
 .env
+*:Zone.Identifier
