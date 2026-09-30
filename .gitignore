@@ -1,0 +1,14 @@
+# Python: compiled files that Python regenerates automatically
+__pycache__/
+*.pyc
+
+# Jupyter: autosave copies created while a notebook is open
+.ipynb_checkpoints/
+
+# MLflow: local tracking data, recreated each time you run the notebook
+mlruns/
+mlartifacts/
+mlflow.db
+
+# Secrets: never upload credentials
+.env
